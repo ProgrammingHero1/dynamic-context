@@ -1,3 +1,5 @@
+@import 'styles/colors.scss';
+$main-color: goldenrod;
 .App {
   text-align: center;
 }
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: $light-color;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
